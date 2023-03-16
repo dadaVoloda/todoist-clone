@@ -1,0 +1,13 @@
+.button {
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: none;
+  border-radius: var(--border-radius);
+
+  transition: var(--tr-time);
+}

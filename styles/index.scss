@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'vars/global';
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  height: 100vh;
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--main-color);
+
+  background-color: var(--content-bg);
+}
+
+.wrapper {
+  display: flex;
+}

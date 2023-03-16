@@ -1,0 +1,29 @@
+:root {
+  --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto,
+    'Apple Color Emoji', helvetica, arial, sans-serif, 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+
+  // color
+  --main-color: rgb(255 255 255 / 87%);
+  --content-color: #eee;
+  --secondary-color: rgb(255 255 255 / 56%);
+  --grey: #808080;
+  --active-task-color: #de4c4a;
+
+  // bg
+  --top-bar-bg: #282828;
+  --top-bar-hover-bg: rgb(255 255 255 / 20%);
+  --left-menu-bg: #242424;
+  --left-menu-hover-bg: #363636;
+  --content-bg: #202020;
+  --content-hover-bg: #4d4d4d;
+
+  // size
+  --top-bar-height: 44px;
+
+  // transition
+  --tr-time: 0.2s;
+
+  // border
+  --border-radius: 3px;
+}
