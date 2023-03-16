@@ -1,0 +1,22 @@
+.header {
+  padding: 36px 55px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid transparent;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}

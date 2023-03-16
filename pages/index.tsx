@@ -1,4 +1,4 @@
-import { Header } from '@/components'
+import { Header, Sidebar, Page } from '@/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,8 +12,10 @@ export default function Home() {
       </Head>
       <Header />
       <div className='wrapper'>
-        <div>sidebar</div>
-        <div className='content'>content</div>
+        <Sidebar />
+        <div className='content'>
+          <Page />
+        </div>
       </div>
     </>
   )

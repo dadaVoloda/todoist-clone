@@ -1,0 +1,9 @@
+.wrapper {
+  flex-grow: 1;
+
+  box-sizing: content-box;
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 55px;
+}

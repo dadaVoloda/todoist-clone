@@ -1,0 +1,42 @@
+.itemMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: var(--border-radius-s);
+
+  transition: var(--tr-time);
+
+  &:hover {
+    background-color: var(--left-menu-hover-bg);
+  }
+}
+
+.link {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding: 5px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 3px 0 3px 5px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+
+  font-size: 12px;
+  color: var(--grey);
+}

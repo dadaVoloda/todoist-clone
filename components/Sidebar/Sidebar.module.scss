@@ -1,0 +1,10 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  width: 305px;
+  padding: 30px 18px 0;
+
+  background-color: var(--left-menu-bg);
+}

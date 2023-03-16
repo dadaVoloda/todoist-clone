@@ -1,0 +1,18 @@
+<svg
+  viewBox='-2 -2 4 4'
+  style='transform: rotate(-90deg); width: 24px; height: 24px;'
+>
+  <circle
+    cx='0'
+    cy='0'
+    r='1.4'
+    fill='none'
+    visibility='visible'
+    stroke='currentColor'
+    stroke-width='0.2'
+  ></circle>
+  <path
+    fill='currentColor'
+    d='M 1 0 A 1 1 0 0 1 0.5000000000000001 0.8660254037844386 L 0 0'
+  ></path>
+</svg>

@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: 32px;
+  padding-bottom: 8px;
+
+  color: var(--grey);
+
+  transition: var(--tr-time);
+
+  &:hover {
+    color: var(--active-task-color);
+
+    .icon {
+      color: white;
+      background-color: var(--active-task-color);
+
+      svg {
+        transform: scale(0.85);
+      }
+    }
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 17px;
+  height: 17px;
+  margin-right: 11px;
+
+  color: var(--active-task-color);
+
+  border-radius: 50%;
+
+  transition: var(--tr-time);
+}

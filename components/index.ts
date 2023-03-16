@@ -1,2 +1,5 @@
 export { Header } from './Header/Header'
 export { Search } from './Search/Search'
+export { Sidebar } from './Sidebar/Sidebar'
+export { TopMenu } from './TopMenu/TopMenu'
+export { Page } from './Page/Page'
